@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 48px;
+  padding: 32px 0;
+}
+
+header {
+  margin: 48px 0;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #888888;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+
+header ul li a:hover {
+  color: #666666;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+form {
+  margin-bottom: 16px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #888888;
+  border: 1px solid #888888;
+  color: #fff;
+  padding: 8px;
+  transition: 0.2s linear;
+}
+
+button:focus, button:active {
+  outline: none;
+}
+
+button:hover {
+  background-color: #777777;
+  border: 1px solid #777777;
+}
+
+.portrait {
+  width: 250px;
+  margin-bottom: 16px;
+}
